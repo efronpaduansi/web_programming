@@ -24,7 +24,7 @@ function registrasi($data){
 	$password = password_hash($password, PASSWORD_DEFAULT);
 
 	//Tambahkan data baru ke dalam database
-	mysqli_query($conn, "INSERT INTO users VALUES('3', '$fullname', '$username', '$password')");
+	mysqli_query($conn, "INSERT INTO users VALUES('NULL', '$fullname', '$username', '$password')");
 	
 	return mysqli_affected_rows($conn);
 	
