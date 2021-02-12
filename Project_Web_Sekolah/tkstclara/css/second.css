@@ -1,0 +1,133 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+
+/* Styles */
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+/* Navbar */
+
+.jumbotron-header{
+    background-image: url(../img/bg3.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: 60vmax;
+    height: 500px;
+  
+}
+.jumbotron-header .jumbotron-heading .row h3{
+    margin-top: 5em;
+}
+.custom-nav span{
+    color: blue;
+    font-size: 1.4rem;
+    margin-left: 0.4em;
+    font-weight: 600;
+}
+#navbarNav .navbar-nav .nav-item .nav-link{
+    color: purple;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-left: 2.4em;
+}
+.sign-up-button{
+    background-color: lightsalmon;
+    color: white;
+    border: none;
+    border-radius: 2em;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+}
+.about-section{
+    margin-top: 5em;
+    background-color: azure;
+    font-weight: 300;
+    padding-top: 3em;
+    padding-bottom: 5em;
+}
+
+.about-section hr{
+    background: black;
+    width: 5em;
+    margin: 1.1rem auto 0 auto;
+    height: 4px;
+    margin-bottom: 1em;
+
+}
+.publikasi-sekolah{
+    margin-top: 5em;
+}
+.publikasi-sekolah hr{
+    background: black;
+    width: 5em;
+    margin: 1.1rem auto 0 auto;
+    height: 4px;
+    margin-bottom: 1em;
+}
+.prestasi-sekolah{
+    margin-top: 5em;
+    background-color: whitesmoke;
+    padding-top: 3em;
+    padding-bottom: 1em;
+}
+.prestasi-sekolah hr{
+    background: black;
+    width: 5em;
+    margin: 1.1rem auto 0 auto;
+    height: 4px;
+    margin-bottom: 1em;
+}
+.prestasi-sekolah .container .row .col-sm-3{
+ margin-left: 1em;
+}
+.footer{
+    background-color: midnightblue;
+    color: white;
+    font-weight: 400;
+    margin-top: -2.2em;
+}
+.footer .container .row{
+    margin-top: 2em;
+    padding-top: 3em;
+    padding-bottom: 5em;
+}
+.footer .container .copyright{
+    padding-bottom: 1em;
+}
+.jumbotron-contact{
+    background-image: url(../img/bg-5.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: 60vmax;
+    height: 480px;
+    background-color: whitesmoke;
+}
+.jumbotron-contact .jumbotron-heading .row h3{
+    margin-top: 5em;
+}
+.jumbotron-contact .container .row .display-5{
+    margin-bottom: 1em;
+}
+.jumbotron-contact .container .row .contact-us-underline{
+    background: salmon;
+    width: 5em;
+    margin: 1rem auto 0 2em;
+    height: 4px;
+    margin-top: -20px;
+    margin-bottom: 1.2em;
+}
+.jumbotron-contact .container .row .contact-form form{
+    padding-left: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right: 1em;
+}
+/* Responsive */
+@media screen and(max-width: 992px){
+    .jumbotron-header{
+        padding-bottom: 10em;
+    }
+    .about-section{
+        margin-top: 5em;
+    }
+}
